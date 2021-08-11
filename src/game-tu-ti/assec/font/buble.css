@@ -1,0 +1,78 @@
+
+@font-face {
+	font-family: 'fun';
+	src: url(./Pony.ttf);
+}
+.speech-bubble {
+	position: relative;
+	background: #45D994;
+	border-radius: .4em;
+	
+}
+
+.speech-bubble:after {
+	content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 35px solid transparent;
+	border-top-color: #45D994;
+	border-bottom: 0;
+	border-left: 0;
+	margin-left: -17.5px;
+	margin-bottom: -35px;
+}
+
+.bgAvenger {
+	background-image: url(../image/bgGame.png);
+	background-size: cover;
+	height: 100vh;
+	font-family: 'fun';
+}
+
+.icon__avenger {
+	width: 145px;
+	padding-top: 48px;
+}
+
+.iconTuXi {
+	width: 65px;
+}
+
+.bgIconTuXi {
+	width: 161px;
+    background-color: white;
+    position: relative;
+    top: 25px;
+    right: -160px;
+    height: 150px;
+    line-height: 150px;
+    border: solid #51e685 5px;
+}
+
+.avenger-text {
+	font-size: 45px;
+	color: orange;
+}
+
+.thongTin {
+	margin-top: -205px;
+	height: 132px;
+}
+
+.tuXi {
+	background-color: white;
+	width: 52px;
+	border-radius: 4px;
+}
+
+.btnTuXi {
+	border: rgb(250, 152, 4) solid 4px;
+	border-radius: 4px;
+}
+
+button {
+	border: none;
+}
